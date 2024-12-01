@@ -1,0 +1,35 @@
+body {
+    background: #181818;
+}
+
+body .container {
+    width: 100%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+}
+
+body .container h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+body ul {list-style: none}
+body ul li {
+    color: #fff;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+body ul li:hover, header ul a:hover {
+    color: #b11dec;
+    text-decoration: none;
+    transform: scale(1.01);
+}
+
+form {
+    width: 100%;
+    margin-top: 10px;
+}

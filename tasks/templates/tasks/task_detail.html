@@ -1,0 +1,5 @@
+<form method="POST" action="{% url 'add_subtask' task.id %}">
+    {% csrf_token %}
+    <input type="text" name="title" placeholder="Subtask title" required>
+    <button type="submit">Add Subtask</button>
+</form>
