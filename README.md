@@ -18,7 +18,7 @@
 
 bash
 git clone https://github.com/slippyslime/ToDoList-webapp.git
-cd название_репозитория
+cd ToDoList-webapp
 
 ### 2. Установите зависимости
 Для начала установите виртуальное окружение и зависимости:
