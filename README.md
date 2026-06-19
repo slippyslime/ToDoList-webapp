@@ -16,18 +16,18 @@
 
 Сначала клонируйте репозиторий на вашу машину:
 
-bash
+```bash
 git clone https://github.com/slippyslime/ToDoList-webapp.git
 cd ToDoList-webapp
-
+```
 ### 2. Установите зависимости
 Для начала установите виртуальное окружение и зависимости:
 
-bash
+```bash
 python -m venv venv
 source venv/bin/activate  # Для Windows используйте venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 ### 3. Настройка Telegram Bot
 
 Перейдите к BotFather в Telegram и создайте бота.
@@ -38,23 +38,24 @@ pip install -r requirements.txt
 ### 4. Создайте миграции и примените их
 Для создания базы данных и выполнения миграций выполните:
 
-bash
+```bash
 python manage.py makemigrations
 python manage.py migrate
-
+```
 ### 5. Запуск приложения
 Запустите сервер разработки Django:
 
-bash
+```bash
 python manage.py runserver
+```
 Теперь вы можете открыть приложение по адресу http://127.0.0.1:8000 в вашем браузере.
 А также по ссылке на ваш привязанный домен.
 
 Запустите бота в другом терминале:
 
-bash
+```bash
 python bot.py
-
+```
 ### 6. Использование бота
 После того как вы запустите сервер, ваш бот будет отправлять пользователям ссылку на веб-приложение при команде /start. После перехода по ссылке пользователи смогут авторизоваться через Telegram и использовать приложение.
 
