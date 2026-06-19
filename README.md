@@ -17,7 +17,7 @@
 Сначала клонируйте репозиторий на вашу машину:
 
 bash
-git clone https://github.com/ваш_пользователь/название_репозитория.git
+git clone https://github.com/slippyslime/ToDoList-webapp.git
 cd название_репозитория
 
 ### 2. Установите зависимости
